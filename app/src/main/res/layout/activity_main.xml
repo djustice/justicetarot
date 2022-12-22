@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <com.djustice.tarot.ParallaxImageView
+        android:id="@+id/pivBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/deck_reference_button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_shape_2"
+            android:drawableStart="@drawable/icon_deck_reference"
+            android:drawablePadding="10dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:text="@string/deck_reference"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:ignore="TextContrastCheck" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/single_card_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_shape_1"
+                    android:drawableStart="@drawable/icon_one_card"
+                    android:drawablePadding="10dp"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/single_card"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/two_card_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_shape_1"
+                    android:drawableStart="@drawable/icon_two_card"
+                    android:drawablePadding="10dp"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/two_card"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/past_present_future_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_shape_1"
+                    android:drawableStart="@drawable/icon_three_card"
+                    android:drawablePadding="10dp"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/past_present_future"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/four_card_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_shape_1"
+                    android:drawableStart="@drawable/icon_four_card"
+                    android:drawablePadding="10dp"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/four_card"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/relationship_spread_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_shape_1"
+                    android:drawableStart="@drawable/icon_relationship"
+                    android:drawablePadding="10dp"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/relationship_spread"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/celtic_cross_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_shape_1"
+                    android:drawableStart="@drawable/icon_celtic_cross"
+                    android:drawablePadding="10dp"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/celtic_cross"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/new_year_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_shape_1"
+                    android:drawableStart="@drawable/icon_new_year"
+                    android:drawablePadding="10dp"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/new_year"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/moon_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_shape_1"
+                    android:drawableStart="@drawable/icon_new_moon"
+                    android:drawablePadding="10dp"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/new_moon"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/mercury_retrograde_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_shape_1"
+                    android:drawableStart="@drawable/icon_mercury_retrograde"
+                    android:drawablePadding="10dp"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/mercury_retrograde"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

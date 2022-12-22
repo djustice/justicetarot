@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".spread.Moon">
+
+    <ImageView
+        android:id="@+id/ivM1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toTopOf="@id/ivM5"
+        app:layout_constraintLeft_toRightOf="@id/spaceLeft"
+        app:layout_constraintRight_toLeftOf="@id/ivM2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <ImageView
+        android:id="@+id/ivM1b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintBottom_toBottomOf="@id/ivM1"
+        app:layout_constraintLeft_toLeftOf="@id/ivM1"
+        app:layout_constraintRight_toRightOf="@id/ivM1"
+        app:layout_constraintTop_toTopOf="@id/ivM1" />
+
+    <ImageView
+        android:id="@+id/ivM2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toTopOf="@id/ivM5"
+        app:layout_constraintLeft_toRightOf="@id/ivM1"
+        app:layout_constraintRight_toLeftOf="@id/ivM3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <ImageView
+        android:id="@+id/ivM2b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintBottom_toBottomOf="@id/ivM2"
+        app:layout_constraintLeft_toLeftOf="@id/ivM2"
+        app:layout_constraintRight_toRightOf="@id/ivM2"
+        app:layout_constraintTop_toTopOf="@id/ivM2" />
+
+    <ImageView
+        android:id="@+id/ivM3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toTopOf="@id/ivM5"
+        app:layout_constraintLeft_toRightOf="@id/ivM2"
+        app:layout_constraintRight_toLeftOf="@id/spaceRight"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <ImageView
+        android:id="@+id/ivM3b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintBottom_toBottomOf="@id/ivM3"
+        app:layout_constraintLeft_toLeftOf="@id/ivM3"
+        app:layout_constraintRight_toRightOf="@id/ivM3"
+        app:layout_constraintTop_toTopOf="@id/ivM3" />
+
+    <ImageView
+        android:id="@+id/ivM4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/spaceLeft"
+        app:layout_constraintRight_toLeftOf="@id/ivM5"
+        app:layout_constraintTop_toBottomOf="@id/ivM1"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <ImageView
+        android:id="@+id/ivM4b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintBottom_toBottomOf="@id/ivM4"
+        app:layout_constraintLeft_toLeftOf="@id/ivM4"
+        app:layout_constraintRight_toRightOf="@id/ivM4"
+        app:layout_constraintTop_toTopOf="@id/ivM4" />
+
+    <ImageView
+        android:id="@+id/ivM5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/ivM4"
+        app:layout_constraintRight_toLeftOf="@id/ivM6"
+        app:layout_constraintTop_toBottomOf="@id/ivM2"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <ImageView
+        android:id="@+id/ivM5b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintBottom_toBottomOf="@id/ivM5"
+        app:layout_constraintLeft_toLeftOf="@id/ivM5"
+        app:layout_constraintRight_toRightOf="@id/ivM5"
+        app:layout_constraintTop_toTopOf="@id/ivM5" />
+
+    <ImageView
+        android:id="@+id/ivM6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/ivM5"
+        app:layout_constraintRight_toLeftOf="@id/spaceRight"
+        app:layout_constraintTop_toBottomOf="@id/ivM3"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <ImageView
+        android:id="@+id/ivM6b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintBottom_toBottomOf="@id/ivM6"
+        app:layout_constraintLeft_toLeftOf="@id/ivM6"
+        app:layout_constraintRight_toRightOf="@id/ivM6"
+        app:layout_constraintTop_toTopOf="@id/ivM6" />
+
+    <Space
+        android:id="@+id/spaceLeft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/ivM1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Space
+        android:id="@+id/spaceRight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/ivM3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

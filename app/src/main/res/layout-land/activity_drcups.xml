@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:foregroundGravity="center_vertical"
+    tools:context=".reference.DRCupsActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:foregroundGravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DRc01Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_01"
+                    android:contentDescription="@string/cups_01" />
+
+                <Button
+                    android:id="@+id/DRc02Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_02"
+                    android:contentDescription="@string/cups_02" />
+
+                <Button
+                    android:id="@+id/DRc03Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_03"
+                    android:contentDescription="@string/cups_03" />
+
+                <Button
+                    android:id="@+id/DRc04Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_04"
+                    android:contentDescription="@string/cups_04" />
+
+                <Button
+                    android:id="@+id/DRc05Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_05"
+                    android:contentDescription="@string/cups_05" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvC1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ace"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvC2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/love"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvC3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/abundance"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvC4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/luxury"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvC5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/disappointment"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DRc06Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_06"
+                    android:contentDescription="@string/cups_06" />
+
+                <Button
+                    android:id="@+id/DRc07Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_07"
+                    android:contentDescription="@string/cups_07" />
+
+                <Button
+                    android:id="@+id/DRc08Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_08"
+                    android:contentDescription="@string/cups_08" />
+
+                <Button
+                    android:id="@+id/DRc09Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_09"
+                    android:contentDescription="@string/cups_09" />
+
+                <Button
+                    android:id="@+id/DRc10Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_10"
+                    android:contentDescription="@string/cups_10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvC6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pleasure"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvC7"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/debauch"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvC8"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/indolence"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvC9"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/happiness"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvC10"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/satiety"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DRc11Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_princess"
+                    android:contentDescription="@string/cups_princess" />
+
+                <Button
+                    android:id="@+id/DRc12Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_prince"
+                    android:contentDescription="@string/cups_prince" />
+
+                <Button
+                    android:id="@+id/DRc13Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_queen"
+                    android:contentDescription="@string/cups_queen" />
+
+                <Button
+                    android:id="@+id/DRc14Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/cups_knight"
+                    android:contentDescription="@string/cups_knight" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvC11"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/princess"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvC12"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prince"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvC13"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/queen"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvC14"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/knight"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

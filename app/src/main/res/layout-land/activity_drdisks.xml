@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:foregroundGravity="center_vertical"
+    tools:context=".reference.DRDisksActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:foregroundGravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DRd01Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_01"
+                    android:contentDescription="@string/disks_01"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRd02Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_02"
+                    android:contentDescription="@string/disks_02"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRd03Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_03"
+                    android:contentDescription="@string/disks_03"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRd04Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_04"
+                    android:contentDescription="@string/disks_04"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRd05Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_05"
+                    android:contentDescription="@string/disks_05" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvD1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ace"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvD2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/change"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvD3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/works"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvD4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/power"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvD5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/worry"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DRd06Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_06"
+                    android:contentDescription="@string/disks_06"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRd07Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_07"
+                    android:contentDescription="@string/disks_07"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRd08Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_08"
+                    android:contentDescription="@string/disks_08"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRd09Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_09"
+                    android:contentDescription="@string/disks_09" />
+
+                <Button
+                    android:id="@+id/DRd10Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_10"
+                    android:contentDescription="@string/disks_10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvD6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/success"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvD7"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/failure"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvD8"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prudence"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvC9"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gain"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvC10"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wealth"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/DRd11Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_princess"
+                    android:contentDescription="@string/disks_princess"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRd12Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_prince"
+                    android:contentDescription="@string/disks_prince"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRd13Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_queen"
+                    android:contentDescription="@string/disks_queen"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRd14Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/disks_knight"
+                    android:contentDescription="@string/disks_knight"
+                    style="?android:attr/buttonBarButtonStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvD11"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/princess"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvD12"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prince"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvD13"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/queen"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvD14"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/knight"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

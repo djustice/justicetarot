@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_land"
+    tools:context=".spread.NewYear">
+
+    <ImageView
+        android:id="@+id/ivNY1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toTopOf="@id/ivNY6"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toRightOf="@id/spaceLeft"
+        app:layout_constraintRight_toLeftOf="@id/ivNY2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivNY1b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="@id/ivNY1"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY1"
+        app:layout_constraintLeft_toLeftOf="@id/ivNY1"
+        app:layout_constraintRight_toRightOf="@id/ivNY1" />
+
+    <ImageView
+        android:id="@+id/ivNY2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toTopOf="@id/ivNY6"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toRightOf="@id/ivNY1"
+        app:layout_constraintRight_toLeftOf="@id/ivNY3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivNY2b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="@id/ivNY2"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY2"
+        app:layout_constraintLeft_toLeftOf="@id/ivNY2"
+        app:layout_constraintRight_toRightOf="@id/ivNY2" />
+
+    <ImageView
+        android:id="@+id/ivNY3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toTopOf="@id/ivNY7"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toRightOf="@id/ivNY2"
+        app:layout_constraintRight_toLeftOf="@id/ivNY4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivNY3b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="@id/ivNY3"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY3"
+        app:layout_constraintLeft_toLeftOf="@id/ivNY3"
+        app:layout_constraintRight_toRightOf="@id/ivNY3" />
+
+    <ImageView
+        android:id="@+id/ivNY4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toTopOf="@id/ivNY7"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toRightOf="@id/ivNY3"
+        app:layout_constraintRight_toLeftOf="@id/ivNY5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivNY4b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="@id/ivNY4"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY4"
+        app:layout_constraintLeft_toLeftOf="@id/ivNY4"
+        app:layout_constraintRight_toRightOf="@id/ivNY4" />
+
+    <ImageView
+        android:id="@+id/ivNY5"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toTopOf="@id/ivNY9"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toRightOf="@id/ivNY4"
+        app:layout_constraintRight_toLeftOf="@id/spaceRight"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivNY5b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="@id/ivNY5"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY5"
+        app:layout_constraintLeft_toLeftOf="@id/ivNY5"
+        app:layout_constraintRight_toRightOf="@id/ivNY5" />
+
+    <ImageView
+        android:id="@+id/ivNY6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toTopOf="@id/ivNY10"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toRightOf="@id/leftSpace2"
+        app:layout_constraintRight_toLeftOf="@id/ivNY7"
+        app:layout_constraintTop_toBottomOf="@id/ivNY1" />
+
+    <ImageView
+        android:id="@+id/ivNY6b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="@id/ivNY6"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY6"
+        app:layout_constraintLeft_toLeftOf="@id/ivNY6"
+        app:layout_constraintRight_toRightOf="@id/ivNY6" />
+
+    <ImageView
+        android:id="@+id/ivNY7"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toTopOf="@id/ivNY10"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toRightOf="@id/ivNY6"
+        app:layout_constraintRight_toLeftOf="@id/ivNY8"
+        app:layout_constraintTop_toBottomOf="@id/ivNY2" />
+
+    <ImageView
+        android:id="@+id/ivNY7b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="@id/ivNY7"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY7"
+        app:layout_constraintLeft_toLeftOf="@id/ivNY7"
+        app:layout_constraintRight_toRightOf="@id/ivNY7" />
+
+    <ImageView
+        android:id="@+id/ivNY8"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toTopOf="@id/ivNY11"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toRightOf="@id/ivNY7"
+        app:layout_constraintRight_toLeftOf="@id/ivNY9"
+        app:layout_constraintTop_toBottomOf="@id/ivNY4" />
+
+    <ImageView
+        android:id="@+id/ivNY8b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="@id/ivNY8"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY8"
+        app:layout_constraintLeft_toLeftOf="@id/ivNY8"
+        app:layout_constraintRight_toRightOf="@id/ivNY8" />
+
+    <ImageView
+        android:id="@+id/ivNY9"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toTopOf="@id/ivNY11"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toRightOf="@id/ivNY8"
+        app:layout_constraintRight_toLeftOf="@id/rightSpace2"
+        app:layout_constraintTop_toBottomOf="@id/ivNY5" />
+
+    <ImageView
+        android:id="@+id/ivNY9b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="@id/ivNY9"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY9"
+        app:layout_constraintLeft_toLeftOf="@id/ivNY9"
+        app:layout_constraintRight_toRightOf="@id/ivNY9" />
+
+    <ImageView
+        android:id="@+id/ivNY10"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toRightOf="@id/leftSpace3"
+        app:layout_constraintRight_toLeftOf="@id/ivNY11"
+        app:layout_constraintTop_toBottomOf="@id/ivNY6" />
+
+    <ImageView
+        android:id="@+id/ivNY10b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="@id/ivNY10"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY10"
+        app:layout_constraintLeft_toLeftOf="@id/ivNY10"
+        app:layout_constraintRight_toRightOf="@id/ivNY10" />
+
+    <ImageView
+        android:id="@+id/ivNY11"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toRightOf="@id/ivNY10"
+        app:layout_constraintRight_toLeftOf="@id/ivNY12"
+        app:layout_constraintTop_toBottomOf="@id/ivNY7" />
+
+    <ImageView
+        android:id="@+id/ivNY11b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="@id/ivNY11"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY11"
+        app:layout_constraintLeft_toLeftOf="@id/ivNY11"
+        app:layout_constraintRight_toRightOf="@id/ivNY11" />
+
+    <ImageView
+        android:id="@+id/ivNY12"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swords_01"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintLeft_toRightOf="@id/ivNY11"
+        app:layout_constraintRight_toLeftOf="@id/rightSpace3"
+        app:layout_constraintTop_toBottomOf="@id/ivNY7" />
+
+    <ImageView
+        android:id="@+id/ivNY12b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/card_back_small"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="@id/ivNY12"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY12"
+        app:layout_constraintLeft_toLeftOf="@id/ivNY12"
+        app:layout_constraintRight_toRightOf="@id/ivNY12" />
+
+    <Space
+        android:id="@+id/spaceLeft"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Space
+        android:id="@+id/spaceRight"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Space
+        android:id="@+id/leftSpace2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/ivNY6"
+        app:layout_constraintEnd_toStartOf="@+id/ivNY6"
+        app:layout_constraintStart_toEndOf="@+id/spaceLeft"
+        app:layout_constraintTop_toBottomOf="@+id/ivNY1" />
+
+    <Space
+        android:id="@+id/rightSpace2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/ivNY9"
+        app:layout_constraintEnd_toStartOf="@+id/spaceRight"
+        app:layout_constraintStart_toEndOf="@+id/ivNY9"
+        app:layout_constraintTop_toBottomOf="@+id/ivNY5" />
+
+    <Space
+        android:id="@+id/leftSpace3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/ivNY10"
+        app:layout_constraintEnd_toStartOf="@+id/ivNY10"
+        app:layout_constraintStart_toEndOf="@+id/leftSpace2"
+        app:layout_constraintTop_toBottomOf="@+id/ivNY6" />
+
+    <Space
+        android:id="@+id/rightSpace3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivNY12"
+        app:layout_constraintEnd_toStartOf="@+id/rightSpace2"
+        app:layout_constraintStart_toEndOf="@+id/ivNY12"
+        app:layout_constraintTop_toBottomOf="@+id/ivNY9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

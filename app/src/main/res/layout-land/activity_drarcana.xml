@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reference.DRArcanaActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DRa00Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_00_fool"
+                    android:contentDescription="@string/a_00_fool" />
+
+                <Button
+                    android:id="@+id/DRa01Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_01_magus"
+                    android:contentDescription="@string/a_01_magus"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRa02Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_02_priestess"
+                    android:contentDescription="@string/a_02_priestess"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRa03Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_03_empress"
+                    android:contentDescription="@string/a_03_empress"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRa04Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_04_emperor"
+                    android:contentDescription="@string/a_04_emperor" />
+
+                <Button
+                    android:id="@+id/DRa05Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_05_hierophant"
+                    android:contentDescription="@string/a_05_hierophant" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvA0"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_00_fool"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_01_magus"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_02_priestess"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_03_empress"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_04_emperor"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_05_hierophant"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DRa06Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_06_lovers"
+                    android:contentDescription="@string/a_06_lovers" />
+
+                <Button
+                    android:id="@+id/DRa07Button"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_07_chariot"
+                    android:contentDescription="@string/a_07_chariot"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/DRa08Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_08_adjustment"
+                    android:contentDescription="@string/a_08_adjustment" />
+
+                <Button
+                    android:id="@+id/DRa09Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_09_hermit"
+                    android:contentDescription="@string/a_09_hermit" />
+
+                <Button
+                    android:id="@+id/DRa10Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_10_fortune"
+                    android:contentDescription="@string/a_10_fortune" />
+
+                <Button
+                    android:id="@+id/DRa11Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_11_lust"
+                    android:contentDescription="@string/a_11_lust" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvA6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_06_lovers"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA7"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_07_chariot"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA8"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_08_adjustment"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA9"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_09_hermit"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA10"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_10_fortune"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA11"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_11_lust"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DRa12Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_12_hanged_man"
+                    android:contentDescription="@string/a_12_hanged_man" />
+
+                <Button
+                    android:id="@+id/DRa13Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_13_death"
+                    android:contentDescription="@string/a_13_death" />
+
+                <Button
+                    android:id="@+id/DRa14Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_14_art"
+                    android:contentDescription="@string/a_14_art" />
+
+                <Button
+                    android:id="@+id/DRa15Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_15_devil"
+                    android:contentDescription="@string/a_15_devil" />
+
+                <Button
+                    android:id="@+id/DRa16Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_16_tower"
+                    android:contentDescription="@string/a_16_tower" />
+
+                <Button
+                    android:id="@+id/DRa17Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_17_star"
+                    android:contentDescription="@string/a_17_star" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvA12"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_12_hanged_man"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA13"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_13_death"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA14"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_14_art"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA15"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a_15_devil"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA16"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/a_16_tower"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA17"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/a_17_star"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DRa18Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_18_moon"
+                    android:contentDescription="@string/a_18_moon" />
+
+                <Button
+                    android:id="@+id/DRa19Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_19_sun"
+                    android:contentDescription="@string/a_19_sun" />
+
+                <Button
+                    android:id="@+id/DRa20Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_20_aeon"
+                    android:contentDescription="@string/a_20_aeon" />
+
+                <Button
+                    android:id="@+id/DRa21Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/a_21_universe"
+                    android:contentDescription="@string/a_21_universe" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvA18"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/a_18_moon"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA19"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/a_19_sun"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA20"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/a_20_aeon"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvA21"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/a_21_universe"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

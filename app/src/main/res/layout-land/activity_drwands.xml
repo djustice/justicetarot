@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:foregroundGravity="center_vertical"
+    tools:context=".reference.DRWandsActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:foregroundGravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DRw01Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_01"
+                    android:contentDescription="@string/wands_01" />
+
+                <Button
+                    android:id="@+id/DRw02Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_02"
+                    android:contentDescription="@string/wands_02" />
+
+                <Button
+                    android:id="@+id/DRw03Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_03"
+                    android:contentDescription="@string/wands_03" />
+
+                <Button
+                    android:id="@+id/DRw04Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_04"
+                    android:contentDescription="@string/wands_04" />
+
+                <Button
+                    android:id="@+id/DRw05Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_05"
+                    android:contentDescription="@string/wands_05" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvW1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ace"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvW2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dominion"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvW3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/virtue"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvW4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/completion"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvW5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/strife"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DRw06Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_06"
+                    android:contentDescription="@string/wands_06" />
+
+                <Button
+                    android:id="@+id/DRw07Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_07"
+                    android:contentDescription="@string/wands_07" />
+
+                <Button
+                    android:id="@+id/DRw08Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_08"
+                    android:contentDescription="@string/wands_08" />
+
+                <Button
+                    android:id="@+id/DRw09Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_09"
+                    android:contentDescription="@string/wands_09" />
+
+                <Button
+                    android:id="@+id/DRw10Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_10"
+                    android:contentDescription="@string/wands_10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvW6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/victory"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvW7"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/valor"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvW8"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/swiftness"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvW9"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ace"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvW10"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/change"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DRw11Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_princess"
+                    android:contentDescription="@string/wands_princess" />
+
+                <Button
+                    android:id="@+id/DRw12Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_prince"
+                    android:contentDescription="@string/wands_prince" />
+
+                <Button
+                    android:id="@+id/DRw13Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_queen"
+                    android:contentDescription="@string/wands_queen" />
+
+                <Button
+                    android:id="@+id/DRw14Button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/wands_knight"
+                    android:contentDescription="@string/wands_knight" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvW11"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/princess"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvW12"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prince"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvW13"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/queen"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvW14"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/knight"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
